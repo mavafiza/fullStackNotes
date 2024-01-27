@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,900;1,500&display=swap');
+
+
+body {
+    font-family: 'krub', sans-serif;
+    background: #1a1a1a;}
+
+main {
+    margin-top: 5%;
+}
+
+/* .countdown-container {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+} */
+
+/* .logo-meetUp {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+} */
+
+/* h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+
+} */
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+span {
+    padding: 10px;
+}
+
+h6 {
+    color: whitesmoke;
+    font-size: large;
+}
+
+h6 a {
+    color: #12677c;
+}
+
+#countdown {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#countdown>div {
+    background-color: #545398;
+    color: whitesmoke;
+    font-size: 50px;
+    width: 200px;
+    height: 100px;
+    /* margin: 0 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* .smalltext {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+} */
+
+.team-cards {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.info article {
+    flex-direction: column;
+    display: flex;
+    max-width: 200px;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+}
+
+.info img {
+    height: 350px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.grayscale-image {
+    filter: grayscale(100%);
+}
+
+.tutorial {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #fff;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    /* background: #F8F8F8; */
+}
+
+.bottom-footer {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* ---------------------------- */
+.text-container {
+    height: 10vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 60px;
+    color: rgba(225, 225, 225, .01);
+    background-image: url("https://dbdzm869oupei.cloudfront.net/img/vinylrugs/preview/33466.png");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-position: left top;
+    }
+
+    25% {
+        background-position: right bottom;
+    }
+
+    50% {
+        background-position: left bottom;
+    }
+
+    75% {
+        background-position: right top;
+    }
+}
