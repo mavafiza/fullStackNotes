@@ -110,8 +110,8 @@ h6 a {
 }
 
 .info img {
-    height: 350px;
-    width: fit-content;
+    height: auto;
+    width: 70vw;
     border-radius: 5px;
 }
 
