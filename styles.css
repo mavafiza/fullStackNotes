@@ -83,9 +83,9 @@ h6 a {
     margin-top: 10px;
 } */
 
-.team-cards {
+.frame {
     background-color: #fff;
-    max-width: 900px;
+    max-width: 80vw;
     margin: 0 auto;
     padding: 10px 30px;
     border-radius: 5px;
